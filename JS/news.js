@@ -20,3 +20,10 @@ const displayAllData = async () => {
     }
 };
 
+const catagory = async (category_id) => {
+    const url = `https://openapi.programming-hero.com/api/news/category/0${category_id}`
+    const res = await fetch(url)
+    const data = await res.json()
+    displayCatagory(data.data)
+    // console.log(data)
+}
