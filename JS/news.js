@@ -53,7 +53,7 @@ const displayCatagory = (par) => {
                         <i class="fa text-xl">&#xf06e;</i>
                         <p class="mx-3">${news.total_view}</p>
                     </div>
-                    <div class="d-flex align-items-center fs-4 ">
+                    <div class="d-flex align-items-center fs-4  ">
                         <div class="text-warning">
                             <i class="fa-regular fa fa-star text-2xl checked"></i>
                             <i class="fa-regular fa fa-star text-2xl text-gray-400"></i>
